@@ -9,6 +9,8 @@ call which will return the remote config.
 $fh.ready(function() {
   document.getElementById('submit_button').onclick = function() {
 
+    alert("About to send.")
+
     $fh.send({
     to: 'brian.dooley@gmail.com',
     subject: 'Hi There',
