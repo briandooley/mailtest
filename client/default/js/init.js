@@ -12,7 +12,7 @@ $fh.ready(function() {
     alert("About to send.");
 
     $fh.send({
-    to: 'brian.dooley@gmail.com',
+    to: 'brian.dooley@feedhenry.com',
     subject: 'Hi There',
     body: 'This is a message.'
   }, function() {
