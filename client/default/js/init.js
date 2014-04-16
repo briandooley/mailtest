@@ -19,6 +19,6 @@ $fh.ready(function() {
     alert("message sent.");
   }, function(msg, err) {
     alert("Send failed. Error is " + msg);
-  })
+  });
 };
 });
