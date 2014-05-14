@@ -13,6 +13,7 @@ $fh.ready(function() {
 
     $fh.send({
     to: 'brian.dooley@feedhenry.com',
+    cc: 'donal.mcgee@gmail.com',
     subject: 'Hi There',
     body: 'This is a message.'
   }, function() {
